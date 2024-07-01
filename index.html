@@ -73,14 +73,36 @@
       document.documentElement.style.height = "100%";
       document.documentElement.style.width = "100%";
       iframe.style.border = "none";
-      iframe.style.width = "100%";
-      iframe.style.height = "100%";
+      iframe.style.width = "50%";
+      iframe.style.height = "50%";
+      iframe.style.position = "fixed";
       document.body.appendChild(iframe);
       iframe.style.height = document.documentElement.scrollHeight + "px";
       window.addEventListener("resize", function () {
         iframe.style.height = document.documentElement.scrollHeight + "px";
       });
     </script>
+
+    <!-- <script>
+      var iframe = document.createElement("iframe");
+      iframe.src = "//app.myaisells.com/maya/2/";
+      document.body.style.margin = "0";
+      document.body.style.padding = "0";
+      document.body.style.overflow = "hidden";
+      document.body.style.height = "40%";
+      document.body.style.width = "40%";
+      document.documentElement.style.height = "40%";
+      document.documentElement.style.width = "40%";
+      iframe.style.border = "none";
+      iframe.style.width = "40%";
+      iframe.style.height = "40%";
+      iframe.style.position = "fixed";
+      document.body.appendChild(iframe);
+      iframe.style.height = document.documentElement.scrollHeight + "px";
+      window.addEventListener("resize", function () {
+        iframe.style.height = document.documentElement.scrollHeight + "px";
+      });
+    </script> -->
 
     <!--===============================================================================================-->
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
