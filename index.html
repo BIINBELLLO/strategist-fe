@@ -64,18 +64,17 @@
 
     <script>
       var iframe = document.createElement("iframe");
-      iframe.src = "//app.myaisells.com/maya/2/";
+      iframe.src = "//app.myaisells.com/maya/8/";
       document.body.style.margin = "0";
       document.body.style.padding = "0";
       document.body.style.overflow = "hidden";
-      document.body.style.height = "40%";
-      document.body.style.width = "40%";
-      document.documentElement.style.height = "40%";
-      document.documentElement.style.width = "40%";
+      document.body.style.height = "100%";
+      document.body.style.width = "100%";
+      document.documentElement.style.height = "100%";
+      document.documentElement.style.width = "100%";
       iframe.style.border = "none";
-      iframe.style.width = "40%";
-      iframe.style.height = "40%";
-      iframe.style.position = "fixed";
+      iframe.style.width = "100%";
+      iframe.style.height = "100%";
       document.body.appendChild(iframe);
       iframe.style.height = document.documentElement.scrollHeight + "px";
       window.addEventListener("resize", function () {
