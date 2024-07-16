@@ -62,7 +62,17 @@
       ></div>
     </div>
 
-    <script src="https://vin-jex.github.io/maya-script/Maya.js"></script>
+    <!-- <script src="https://vin-jex.github.io/maya-script/Maya.js"></script> -->
+
+    <script src="https://vin-jex.github.io/maya-script/maya.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        localStorage.setItem("data", {
+          token: "db5d187948d9318350ca9e1a6963126c3fde82f0",
+          bucket: 3,
+        });
+      });
+    </script>
 
     <!-- <script>
       var iframe = document.createElement("iframe");
