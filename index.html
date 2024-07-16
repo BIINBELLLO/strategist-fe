@@ -64,7 +64,7 @@
 
     <!-- <script src="https://vin-jex.github.io/maya-script/Maya.js"></script> -->
 
-    <script src="https://vin-jex.github.io/maya-script/maya.js"></script>
+    <!-- <script src="https://vin-jex.github.io/maya-script/maya.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("data", {
@@ -72,7 +72,19 @@
           bucket: 3,
         });
       });
+    </script> -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        localStorage.setItem(
+          "data",
+          JSON.stringify({
+            token: "ba63d7ca9850048459d47397b29cfd05ada016e7",
+            bucket: 3,
+          })
+        );
+      });
     </script>
+    <script src="https://vin-jex.github.io/maya-script/maya.js"></script>
 
     <!-- <script>
       var iframe = document.createElement("iframe");
