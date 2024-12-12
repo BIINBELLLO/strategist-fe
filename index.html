@@ -99,12 +99,18 @@
         );
       });
     </script> -->
-<script src="https://myairobotics.github.io/maya-script/maya.js"></script>
+<!-- <script src="https://myairobotics.github.io/maya-script/maya.js"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("data", JSON.stringify({ bucket: "24"}))})
-</script>
+</script> -->
+
+<script src="https://mayascript.vercel.app/maya.js" ></script>
+<script> 
+document.addEventListener( "DOMContentLoaded", function(){localStorage.setItem("data", JSON.stringify({bucket: "24" }))})
+MayaWidget.initMayaWidget();
+ </script>
 
 
     <!-- <script>
